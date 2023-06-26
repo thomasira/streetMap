@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thomas Aucoin-lo">
+    <title>street map rug</title>
+    <link rel="stylesheet" href="./assets/style/main.css">
+    <script src="./assets/script/Control.js"></script>
+    <script src="./assets/script/main.js"></script>
+</head>
+<body>
+    <div class="wood">
+        <label>
+            <select name="car-color">
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+                <option value="yellow">yellow</option>
+            </select>
+        </label>
+        <picture class="street-rug" data-js-map>
+            <div data-js-control="red" class="control">
+                <img src="./assets/img/hotWheels.png" alt="car">
+            </div>
+            <div data-js-control="yellow" class="control">
+                <img src="./assets/img/hotWheels.png" alt="car">
+            </div>
+            <div data-js-control="blue" class="control">
+                <img src="./assets/img/hotWheels.png" alt="car">
+            </div>
+            <img src="./assets/img/street-map-rug.png" alt="street map rug">
+        </picture>
+    </div>
+</body>
+</html>
